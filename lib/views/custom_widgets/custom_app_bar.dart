@@ -79,7 +79,7 @@ class CustomAppBar extends StatelessWidget {
           Text(
             screenTitle,
             style: AppStyles.appBarTextStyle().copyWith(
-                fontSize: 19.sp,
+                fontSize: 25.sp,
                 fontWeight: FontWeight.w700,
                 color: screenTitleColor),
           ),

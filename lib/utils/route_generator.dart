@@ -1,7 +1,10 @@
 import 'package:bloyal/utils/app_strings.dart';
 import 'package:bloyal/utils/screen_bindings.dart';
 import 'package:bloyal/views/views/auth/views/login_screen.dart';
+import 'package:bloyal/views/views/home_screen/views/all_customers_screen.dart';
 import 'package:bloyal/views/views/home_screen/views/home_screen.dart';
+import 'package:bloyal/views/views/notification/views/notification_screen.dart';
+import 'package:bloyal/views/views/notification/views/success_screen.dart';
 import 'package:bloyal/views/views/splash_screen.dart';
 import 'package:get/get.dart';
 
@@ -19,6 +22,18 @@ class RouteGenerator {
       GetPage(
           name: kHomeRoute,
           page: () => HomeScreen(),
+          binding: ScreenBindings()),
+      GetPage(
+          name: kAllCustomersRoute,
+          page: () => AllCustomersScreen(),
+          binding: ScreenBindings()),
+      GetPage(
+          name: kNotificationRoute,
+          page: () => const NotificationScreen(),
+          binding: ScreenBindings()),
+      GetPage(
+          name: kSuccessRoute,
+          page: () => const SuccessScreen(),
           binding: ScreenBindings()),
     ];
   }

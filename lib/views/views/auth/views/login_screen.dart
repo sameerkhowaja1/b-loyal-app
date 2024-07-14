@@ -115,6 +115,9 @@ class LoginScreen extends GetView<AuthController> {
                     color: kHintTextColor),
               ),
             ),
+            SizedBox(
+              height: 15.h,
+            )
           ],
         ));
   }
