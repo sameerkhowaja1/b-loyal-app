@@ -271,7 +271,7 @@ class HomeScreen extends GetView<HomeController> {
             btnLabel: 'Scan QR Code',
             borderRadius: 20.r,
             onTap: () {
-              Get.toNamed(kManagementRoute);
+              Get.toNamed(kScanQRCodeScreen);
             },
           )
         ],

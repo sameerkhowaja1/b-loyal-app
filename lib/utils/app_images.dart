@@ -16,3 +16,4 @@ const String kBalanceBg = '$images/balance.png';
 const String kStatBg = '$images/Stat.png';
 const String kSuccessImage = '$images/success.png';
 const String kRedeemImage = '$images/redeem.png';
+const String kQR = '$images/qr.png';

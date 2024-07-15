@@ -3,6 +3,7 @@ import 'package:bloyal/utils/screen_bindings.dart';
 import 'package:bloyal/views/views/auth/views/login_screen.dart';
 import 'package:bloyal/views/views/home_screen/views/all_customers_screen.dart';
 import 'package:bloyal/views/views/home_screen/views/home_screen.dart';
+import 'package:bloyal/views/views/home_screen/views/scan_qr_code_screen.dart';
 import 'package:bloyal/views/views/home_screen/views/updates_screen.dart';
 import 'package:bloyal/views/views/management/views/congrates_screen.dart';
 import 'package:bloyal/views/views/management/views/management_screen.dart';
@@ -44,6 +45,10 @@ class RouteGenerator {
       GetPage(
           name: kManagementRoute,
           page: () => const ManagementScreen(),
+          binding: ScreenBindings()),
+      GetPage(
+          name: kScanQRCodeScreen,
+          page: () => const ScanQrCodeScreen(),
           binding: ScreenBindings()),
     ];
   }

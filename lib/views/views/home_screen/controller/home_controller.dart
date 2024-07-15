@@ -5,4 +5,5 @@ class HomeController extends GetxController {
   GlobalKey<ScaffoldState> scaffoldKey = GlobalKey<ScaffoldState>();
   GlobalKey<ScaffoldState> scaffoldKeyAllCustomers = GlobalKey<ScaffoldState>();
   GlobalKey<ScaffoldState> scaffoldKeyUpdates = GlobalKey<ScaffoldState>();
+  GlobalKey<ScaffoldState> scaffoldKeyScanQR = GlobalKey<ScaffoldState>();
 }

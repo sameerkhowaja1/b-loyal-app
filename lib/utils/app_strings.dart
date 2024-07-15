@@ -9,3 +9,4 @@ const String kNotificationRoute = '/notificationScreen';
 const String kCongratsRoute = '/congratsScreen';
 const String kUpdatesRoute = '/updatesScreen';
 const String kManagementRoute = '/managementScreen';
+const String kScanQRCodeScreen = '/scanQRCodeScreen';
