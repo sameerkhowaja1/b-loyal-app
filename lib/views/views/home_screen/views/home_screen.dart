@@ -40,11 +40,16 @@ class HomeScreen extends GetView<HomeController> {
                     fontWeight: FontWeight.w800,
                     color: kBlackColor),
               ),
-              Image.asset(
-                kNotificationIcon,
-                width: 28.w,
-                height: 28.h,
-                color: kBlackColor,
+              GestureDetector(
+                onTap: () {
+                  Get.toNamed(kUpdatesRoute);
+                },
+                child: Image.asset(
+                  kNotificationIcon,
+                  width: 28.w,
+                  height: 28.h,
+                  color: kBlackColor,
+                ),
               )
             ],
           ),
@@ -265,6 +270,9 @@ class HomeScreen extends GetView<HomeController> {
           CustomButtonWithIconWidget(
             btnLabel: 'Scan QR Code',
             borderRadius: 20.r,
+            onTap: () {
+              Get.toNamed(kManagementRoute);
+            },
           )
         ],
       ),

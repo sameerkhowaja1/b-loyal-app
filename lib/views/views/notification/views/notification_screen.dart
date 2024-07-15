@@ -59,7 +59,7 @@ class NotificationScreen extends GetView<NotificationController> {
           CustomButtonWidget(
             btnLabel: 'Send',
             onTap: () {
-              Get.toNamed(kSuccessRoute);
+              Get.toNamed(kCongratsRoute);
             },
           ),
           Text(

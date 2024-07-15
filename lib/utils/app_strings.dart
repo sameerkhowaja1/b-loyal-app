@@ -6,4 +6,6 @@ const String kLoginRoute = '/loginScreen';
 const String kHomeRoute = '/homeScreen';
 const String kAllCustomersRoute = '/allCustomersScreen';
 const String kNotificationRoute = '/notificationScreen';
-const String kSuccessRoute = '/successScreen';
+const String kCongratsRoute = '/congratsScreen';
+const String kUpdatesRoute = '/updatesScreen';
+const String kManagementRoute = '/managementScreen';

@@ -4,4 +4,5 @@ import 'package:get/get.dart';
 class HomeController extends GetxController {
   GlobalKey<ScaffoldState> scaffoldKey = GlobalKey<ScaffoldState>();
   GlobalKey<ScaffoldState> scaffoldKeyAllCustomers = GlobalKey<ScaffoldState>();
+  GlobalKey<ScaffoldState> scaffoldKeyUpdates = GlobalKey<ScaffoldState>();
 }
