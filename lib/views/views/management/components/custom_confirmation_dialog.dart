@@ -38,23 +38,13 @@ class CustomConfirmationDialog extends StatelessWidget {
                   fontWeight: FontWeight.w700,
                   color: kBlackColor),
             ),
-            isAddingStamp
-                ? Obx(
-                    () => Text(
-                      message,
-                      style: AppStyles.appBarTextStyle().copyWith(
-                          fontSize: 16.sp,
-                          fontWeight: FontWeight.w700,
-                          color: kBlackColor),
-                    ),
-                  )
-                : Text(
-                    message,
-                    style: AppStyles.appBarTextStyle().copyWith(
-                        fontSize: 16.sp,
-                        fontWeight: FontWeight.w700,
-                        color: kBlackColor),
-                  ),
+            Text(
+              message,
+              style: AppStyles.appBarTextStyle().copyWith(
+                  fontSize: 16.sp,
+                  fontWeight: FontWeight.w700,
+                  color: kBlackColor),
+            ),
             SizedBox(
               height: 20.h,
             ),
