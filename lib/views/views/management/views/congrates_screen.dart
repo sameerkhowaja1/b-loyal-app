@@ -60,7 +60,7 @@ class CongratsScreen extends GetView<ManagementController> {
             CustomButtonWidget(
               btnLabel: 'Close',
               onTap: () {
-                Get.offAndToNamed(kHomeRoute);
+                Get.offAllNamed(kHomeRoute);
               },
             )
           ],
